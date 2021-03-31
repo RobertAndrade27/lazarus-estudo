@@ -1,0 +1,92 @@
+object Form1: TForm1
+  Left = 1594
+  Height = 289
+  Top = 103
+  Width = 380
+  Caption = 'Form1'
+  ClientHeight = 289
+  ClientWidth = 380
+  Color = clHotLight
+  LCLVersion = '2.0.12.0'
+  object Edit1: TEdit
+    Left = 24
+    Height = 23
+    Top = 80
+    Width = 160
+    Color = clSilver
+    TabOrder = 0
+    Text = 'Edit1'
+  end
+  object Button1: TButton
+    Left = 192
+    Height = 25
+    Top = 80
+    Width = 75
+    Caption = 'Button1'
+    Color = clTeal
+    OnClick = Button1Click
+    TabOrder = 1
+  end
+  object Edit2: TEdit
+    Left = 24
+    Height = 23
+    Top = 153
+    Width = 123
+    TabOrder = 2
+    Text = 'Edit2'
+  end
+  object Edit3: TEdit
+    Left = 168
+    Height = 23
+    Top = 153
+    Width = 124
+    TabOrder = 3
+    Text = 'Edit3'
+  end
+  object Button2: TButton
+    Left = 304
+    Height = 23
+    Top = 153
+    Width = 70
+    Caption = 'Gerar'
+    Color = clRed
+    OnClick = Button2Click
+    TabOrder = 4
+  end
+  object Label1: TLabel
+    Left = 24
+    Height = 15
+    Top = 136
+    Width = 31
+    Caption = 'Maior'
+    ParentColor = False
+    OnClick = Label1Click
+  end
+  object Label2: TLabel
+    Left = 170
+    Height = 15
+    Top = 136
+    Width = 35
+    Caption = 'Menor'
+    ParentColor = False
+    OnClick = Label1Click
+  end
+  object Edit4: TEdit
+    Left = 80
+    Height = 23
+    Top = 10
+    Width = 80
+    OnChange = Edit4Change
+    TabOrder = 5
+    TextHint = 'dd/mm/aaaa'
+  end
+  object ToggleBox1: TToggleBox
+    Left = 168
+    Height = 25
+    Top = 8
+    Width = 75
+    Caption = 'Gerar Data'
+    OnChange = ToggleBox1Change
+    TabOrder = 6
+  end
+end
